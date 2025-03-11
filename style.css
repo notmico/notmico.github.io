@@ -9,9 +9,9 @@ body {
     background: radial-gradient(circle, rgba(78,102,148,1) 0%, rgba(101,151,161,1) 100%);
 
 
-    padding: 0.1em;
+    padding: 1em;
 
-    box-shadow: 0 0 55px 5px rgba(255, 255, 255, 0.216);
+    box-shadow: 0 0 70px 10px rgba(255, 255, 255, 0.34);
 
     border: none;
     border-width: 1px;
@@ -21,12 +21,21 @@ body {
     display: block;
 }
 
-.title-letter, .content-letter {
+.title-letter, .content-letter, .end-letter {
     font-family: Montserrat;
     font-weight: 500;
-    font-size: 1.95ch;
+    font-size: 1.85ch;
 
-    margin: 1em;
+    margin: 2em;
+}
+
+.title-letter {
+    font-weight: bold;
+}
+
+.end-letter {
+    text-align: end;
+    font-weight: bold;
 }
 
 .watermark {
@@ -34,7 +43,8 @@ body {
     text-align: center;
     color: #424d78;
 
-    margin-top: 3em;
+    margin-top: 2em;
+    margin-bottom: 2em;
 
     font-weight: 600;
     font-family: Montserrat;
